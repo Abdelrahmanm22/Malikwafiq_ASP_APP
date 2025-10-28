@@ -11,10 +11,9 @@
 <div class="card">
     <div class="card-header">
         <h3 class="card-title">Books Table</h3>
-        
     </div>
+    <div asp-validation-summary="All"></div>
     <div class="card-body">
-        
             <table class="table table-bordered">
                 <thead>
                     <tr>
@@ -22,7 +21,7 @@
                         <th>Image</th>
                         <th>Book Name</th>
                         <th>Book Description</th>
-                        <th>UPDATE</th>
+                        <th class="text-center" >Actions</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -32,11 +31,13 @@
                     @foreach (var book in Model)
                     {
                         <tr>
-                            <td>@itr++</td>
+                            <td>@(itr++)</td>
                             <td><img src="~/files/BookImages/@book.ImageName" class="rounded" height="50" width="50" alt="Book Image" /></td>
                             <td>@book.Name</td>
                             <td>@book.Discription</td>
-                            <td><a asp-action="Edit" asp-route-id="@book.Id"><i class="fas fa-edit"></i></a></td>
+                            <td class="text-center">
+                                <partial name="_ButtonsPartialView" model="@book"/>
+                            </td>
                         </tr>
                     }
                 }

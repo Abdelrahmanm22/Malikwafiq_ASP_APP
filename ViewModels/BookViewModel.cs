@@ -12,6 +12,6 @@ namespace Malek_wafik.ViewModels
         [MaxLength(500,ErrorMessage ="Max Length is 500 chars")]
         public string? Discription { get; set; }
         public string? ImageName { get; set; }
-        public IFormFile Image { get; set; }
+        public IFormFile? Image { get; set; }
     }
 }

@@ -3,32 +3,8 @@
   "WorkspaceRootPath": "D:\\My Career\\ASP.NET\\MyProjects\\Malek wafik\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C309C7F9-C777-43D8-B493-105AF1F7BCA4}|Malek wafik.csproj|d:\\my career\\asp.net\\myprojects\\malek wafik\\views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C309C7F9-C777-43D8-B493-105AF1F7BCA4}|Malek wafik.csproj|solutionrelative:views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C309C7F9-C777-43D8-B493-105AF1F7BCA4}|Malek wafik.csproj|d:\\my career\\asp.net\\myprojects\\malek wafik\\helpers\\documentsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C309C7F9-C777-43D8-B493-105AF1F7BCA4}|Malek wafik.csproj|solutionrelative:helpers\\documentsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C309C7F9-C777-43D8-B493-105AF1F7BCA4}|Malek wafik.csproj|d:\\my career\\asp.net\\myprojects\\malek wafik\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C309C7F9-C777-43D8-B493-105AF1F7BCA4}|Malek wafik.csproj|solutionrelative:controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C309C7F9-C777-43D8-B493-105AF1F7BCA4}|Malek wafik.csproj|d:\\my career\\asp.net\\myprojects\\malek wafik\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C309C7F9-C777-43D8-B493-105AF1F7BCA4}|Malek wafik.csproj|solutionrelative:repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C309C7F9-C777-43D8-B493-105AF1F7BCA4}|Malek wafik.csproj|d:\\my career\\asp.net\\myprojects\\malek wafik\\viewmodels\\bookviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C309C7F9-C777-43D8-B493-105AF1F7BCA4}|Malek wafik.csproj|solutionrelative:viewmodels\\bookviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C309C7F9-C777-43D8-B493-105AF1F7BCA4}|Malek wafik.csproj|d:\\my career\\asp.net\\myprojects\\malek wafik\\mappingprofiles\\bookprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C309C7F9-C777-43D8-B493-105AF1F7BCA4}|Malek wafik.csproj|solutionrelative:mappingprofiles\\bookprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C309C7F9-C777-43D8-B493-105AF1F7BCA4}|Malek wafik.csproj|d:\\my career\\asp.net\\myprojects\\malek wafik\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C309C7F9-C777-43D8-B493-105AF1F7BCA4}|Malek wafik.csproj|solutionrelative:models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C309C7F9-C777-43D8-B493-105AF1F7BCA4}|Malek wafik.csproj|d:\\my career\\asp.net\\myprojects\\malek wafik\\views\\book\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C309C7F9-C777-43D8-B493-105AF1F7BCA4}|Malek wafik.csproj|solutionrelative:views\\book\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C309C7F9-C777-43D8-B493-105AF1F7BCA4}|Malek wafik.csproj|d:\\my career\\asp.net\\myprojects\\malek wafik\\views\\book\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -41,6 +17,46 @@
     {
       "AbsoluteMoniker": "D:0:0:{C309C7F9-C777-43D8-B493-105AF1F7BCA4}|Malek wafik.csproj|d:\\my career\\asp.net\\myprojects\\malek wafik\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C309C7F9-C777-43D8-B493-105AF1F7BCA4}|Malek wafik.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C309C7F9-C777-43D8-B493-105AF1F7BCA4}|Malek wafik.csproj|d:\\my career\\asp.net\\myprojects\\malek wafik\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C309C7F9-C777-43D8-B493-105AF1F7BCA4}|Malek wafik.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C309C7F9-C777-43D8-B493-105AF1F7BCA4}|Malek wafik.csproj|d:\\my career\\asp.net\\myprojects\\malek wafik\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C309C7F9-C777-43D8-B493-105AF1F7BCA4}|Malek wafik.csproj|solutionrelative:controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C309C7F9-C777-43D8-B493-105AF1F7BCA4}|Malek wafik.csproj|d:\\my career\\asp.net\\myprojects\\malek wafik\\views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C309C7F9-C777-43D8-B493-105AF1F7BCA4}|Malek wafik.csproj|solutionrelative:views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C309C7F9-C777-43D8-B493-105AF1F7BCA4}|Malek wafik.csproj|d:\\my career\\asp.net\\myprojects\\malek wafik\\helpers\\documentsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C309C7F9-C777-43D8-B493-105AF1F7BCA4}|Malek wafik.csproj|solutionrelative:helpers\\documentsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C309C7F9-C777-43D8-B493-105AF1F7BCA4}|Malek wafik.csproj|d:\\my career\\asp.net\\myprojects\\malek wafik\\viewmodels\\bookviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C309C7F9-C777-43D8-B493-105AF1F7BCA4}|Malek wafik.csproj|solutionrelative:viewmodels\\bookviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C309C7F9-C777-43D8-B493-105AF1F7BCA4}|Malek wafik.csproj|d:\\my career\\asp.net\\myprojects\\malek wafik\\views\\shared\\_buttonspartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C309C7F9-C777-43D8-B493-105AF1F7BCA4}|Malek wafik.csproj|solutionrelative:views\\shared\\_buttonspartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C309C7F9-C777-43D8-B493-105AF1F7BCA4}|Malek wafik.csproj|d:\\my career\\asp.net\\myprojects\\malek wafik\\views\\shared\\_head.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C309C7F9-C777-43D8-B493-105AF1F7BCA4}|Malek wafik.csproj|solutionrelative:views\\shared\\_head.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C309C7F9-C777-43D8-B493-105AF1F7BCA4}|Malek wafik.csproj|d:\\my career\\asp.net\\myprojects\\malek wafik\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C309C7F9-C777-43D8-B493-105AF1F7BCA4}|Malek wafik.csproj|solutionrelative:repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C309C7F9-C777-43D8-B493-105AF1F7BCA4}|Malek wafik.csproj|d:\\my career\\asp.net\\myprojects\\malek wafik\\mappingprofiles\\bookprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C309C7F9-C777-43D8-B493-105AF1F7BCA4}|Malek wafik.csproj|solutionrelative:mappingprofiles\\bookprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C309C7F9-C777-43D8-B493-105AF1F7BCA4}|Malek wafik.csproj|d:\\my career\\asp.net\\myprojects\\malek wafik\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C309C7F9-C777-43D8-B493-105AF1F7BCA4}|Malek wafik.csproj|solutionrelative:models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C309C7F9-C777-43D8-B493-105AF1F7BCA4}|Malek wafik.csproj|d:\\my career\\asp.net\\myprojects\\malek wafik\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,10 +75,6 @@
       "RelativeMoniker": "D:0:0:{C309C7F9-C777-43D8-B493-105AF1F7BCA4}|Malek wafik.csproj|solutionrelative:views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C309C7F9-C777-43D8-B493-105AF1F7BCA4}|Malek wafik.csproj|d:\\my career\\asp.net\\myprojects\\malek wafik\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C309C7F9-C777-43D8-B493-105AF1F7BCA4}|Malek wafik.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C309C7F9-C777-43D8-B493-105AF1F7BCA4}|Malek wafik.csproj|d:\\my career\\asp.net\\myprojects\\malek wafik\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C309C7F9-C777-43D8-B493-105AF1F7BCA4}|Malek wafik.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
@@ -74,50 +86,104 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\My Career\\ASP.NET\\MyProjects\\Malek wafik\\Views\\Book\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Book\\Edit.cshtml",
+              "ToolTip": "D:\\My Career\\ASP.NET\\MyProjects\\Malek wafik\\Views\\Book\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Book\\Edit.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAswD8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-28T18:52:30.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\My Career\\ASP.NET\\MyProjects\\Malek wafik\\Views\\Book\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Book\\Index.cshtml",
+              "ToolTip": "D:\\My Career\\ASP.NET\\MyProjects\\Malek wafik\\Views\\Book\\Index.cshtml",
+              "RelativeToolTip": "Views\\Book\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-25T14:54:23.863Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\My Career\\ASP.NET\\MyProjects\\Malek wafik\\Views\\Book\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Book\\Create.cshtml",
+              "ToolTip": "D:\\My Career\\ASP.NET\\MyProjects\\Malek wafik\\Views\\Book\\Create.cshtml",
+              "RelativeToolTip": "Views\\Book\\Create.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAYwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-27T16:43:45.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "DocumentSettings.cs",
               "DocumentMoniker": "D:\\My Career\\ASP.NET\\MyProjects\\Malek wafik\\Helpers\\DocumentSettings.cs",
               "RelativeDocumentMoniker": "Helpers\\DocumentSettings.cs",
               "ToolTip": "D:\\My Career\\ASP.NET\\MyProjects\\Malek wafik\\Helpers\\DocumentSettings.cs",
               "RelativeToolTip": "Helpers\\DocumentSettings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-27T17:09:17.746Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BookViewModel.cs",
-              "DocumentMoniker": "D:\\My Career\\ASP.NET\\MyProjects\\Malek wafik\\ViewModels\\BookViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\BookViewModel.cs",
-              "ToolTip": "D:\\My Career\\ASP.NET\\MyProjects\\Malek wafik\\ViewModels\\BookViewModel.cs",
-              "RelativeToolTip": "ViewModels\\BookViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T14:58:54.657Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "BookController.cs",
               "DocumentMoniker": "D:\\My Career\\ASP.NET\\MyProjects\\Malek wafik\\Controllers\\BookController.cs",
               "RelativeDocumentMoniker": "Controllers\\BookController.cs",
               "ToolTip": "D:\\My Career\\ASP.NET\\MyProjects\\Malek wafik\\Controllers\\BookController.cs",
               "RelativeToolTip": "Controllers\\BookController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAiwCQAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAswCAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-25T14:52:17.616Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
+              "Title": "_Head.cshtml",
+              "DocumentMoniker": "D:\\My Career\\ASP.NET\\MyProjects\\Malek wafik\\Views\\Shared\\_Head.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Head.cshtml",
+              "ToolTip": "D:\\My Career\\ASP.NET\\MyProjects\\Malek wafik\\Views\\Shared\\_Head.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Head.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-28T18:38:54.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_ButtonsPartialView.cshtml",
+              "DocumentMoniker": "D:\\My Career\\ASP.NET\\MyProjects\\Malek wafik\\Views\\Shared\\_ButtonsPartialView.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ButtonsPartialView.cshtml",
+              "ToolTip": "D:\\My Career\\ASP.NET\\MyProjects\\Malek wafik\\Views\\Shared\\_ButtonsPartialView.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ButtonsPartialView.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-28T18:45:24.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "BookProfile.cs",
               "DocumentMoniker": "D:\\My Career\\ASP.NET\\MyProjects\\Malek wafik\\MappingProfiles\\BookProfile.cs",
               "RelativeDocumentMoniker": "MappingProfiles\\BookProfile.cs",
@@ -125,64 +191,62 @@
               "RelativeToolTip": "MappingProfiles\\BookProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T15:16:28.388Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-25T15:16:28.388Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\My Career\\ASP.NET\\MyProjects\\Malek wafik\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\My Career\\ASP.NET\\MyProjects\\Malek wafik\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACEAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswCIAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-25T14:55:24.517Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\My Career\\ASP.NET\\MyProjects\\Malek wafik\\Views\\Book\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Book\\Create.cshtml",
-              "ToolTip": "D:\\My Career\\ASP.NET\\MyProjects\\Malek wafik\\Views\\Book\\Create.cshtml",
-              "RelativeToolTip": "Views\\Book\\Create.cshtml",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAgwB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-27T16:43:45.804Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 3,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "D:\\My Career\\ASP.NET\\MyProjects\\Malek wafik\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "ToolTip": "D:\\My Career\\ASP.NET\\MyProjects\\Malek wafik\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-27T16:52:30.768Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\My Career\\ASP.NET\\MyProjects\\Malek wafik\\Views\\Book\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Book\\Index.cshtml",
-              "ToolTip": "D:\\My Career\\ASP.NET\\MyProjects\\Malek wafik\\Views\\Book\\Index.cshtml",
-              "RelativeToolTip": "Views\\Book\\Index.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACYAAABPAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\My Career\\ASP.NET\\MyProjects\\Malek wafik\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\My Career\\ASP.NET\\MyProjects\\Malek wafik\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-25T14:54:23.863Z",
+              "WhenOpened": "2025-10-25T14:52:48.952Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
+              "Title": "BookViewModel.cs",
+              "DocumentMoniker": "D:\\My Career\\ASP.NET\\MyProjects\\Malek wafik\\ViewModels\\BookViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\BookViewModel.cs",
+              "ToolTip": "D:\\My Career\\ASP.NET\\MyProjects\\Malek wafik\\ViewModels\\BookViewModel.cs",
+              "RelativeToolTip": "ViewModels\\BookViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T19:06:50.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "UnitOfWork.cs",
               "DocumentMoniker": "D:\\My Career\\ASP.NET\\MyProjects\\Malek wafik\\Repositories\\UnitOfWork.cs",
               "RelativeDocumentMoniker": "Repositories\\UnitOfWork.cs",
@@ -190,12 +254,11 @@
               "RelativeToolTip": "Repositories\\UnitOfWork.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T15:22:53.397Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-25T15:22:53.397Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "GenericRepository.cs",
               "DocumentMoniker": "D:\\My Career\\ASP.NET\\MyProjects\\Malek wafik\\Repositories\\GenericRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\GenericRepository.cs",
@@ -203,12 +266,11 @@
               "RelativeToolTip": "Repositories\\GenericRepository.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAiwCgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T15:23:01.285Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-25T15:23:01.285Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\My Career\\ASP.NET\\MyProjects\\Malek wafik\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -216,12 +278,11 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAgwAsAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T15:11:09.157Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-25T15:11:09.157Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "Book.cs",
               "DocumentMoniker": "D:\\My Career\\ASP.NET\\MyProjects\\Malek wafik\\Models\\Book.cs",
               "RelativeDocumentMoniker": "Models\\Book.cs",
@@ -229,12 +290,11 @@
               "RelativeToolTip": "Models\\Book.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T14:59:09.515Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-25T14:59:09.515Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "BookRepository.cs",
               "DocumentMoniker": "D:\\My Career\\ASP.NET\\MyProjects\\Malek wafik\\Repositories\\BookRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\BookRepository.cs",
@@ -242,12 +302,11 @@
               "RelativeToolTip": "Repositories\\BookRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T15:23:07.957Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-25T15:23:07.957Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "D:\\My Career\\ASP.NET\\MyProjects\\Malek wafik\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
@@ -255,25 +314,11 @@
               "RelativeToolTip": "Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-25T14:52:50.724Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-25T14:52:50.724Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "D:\\My Career\\ASP.NET\\MyProjects\\Malek wafik\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
-              "ToolTip": "D:\\My Career\\ASP.NET\\MyProjects\\Malek wafik\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-25T14:52:48.952Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "_Sidebar.cshtml",
               "DocumentMoniker": "D:\\My Career\\ASP.NET\\MyProjects\\Malek wafik\\Views\\Shared\\_Sidebar.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Sidebar.cshtml",
@@ -281,8 +326,7 @@
               "RelativeToolTip": "Views\\Shared\\_Sidebar.cshtml",
               "ViewState": "AgIAAAYAAAAAAAAAAIBJwB0AAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-25T15:20:50.726Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-25T15:20:50.726Z"
             }
           ]
         }

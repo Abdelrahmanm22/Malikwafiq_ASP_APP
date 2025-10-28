@@ -43,5 +43,60 @@ namespace Malek_wafik.Controllers
             }
             return View(bookVM);
         }
+        public async Task<IActionResult> Edit(int id)
+        {
+            var book = await unitOfWork.BookRepository.GetbyIDAsync(id);
+            if(book is null)
+            {
+                return NotFound();
+            }
+            var bookVM = mapper.Map<Book, BookViewModel>(book);
+            return View(bookVM);
+        }
+        [HttpPost]
+        public async Task<IActionResult> Edit(BookViewModel bookVM)
+        {
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    if(bookVM.Image is not null)
+                    {
+                        if (!string.IsNullOrEmpty(bookVM.ImageName))
+                            DocumentSettings.DeleteFile(bookVM.ImageName, "BookImages");
+                        bookVM.ImageName = DocumentSettings.UploadFile(bookVM.Image, "BookImages");
+                    }
+                    var book = mapper.Map<BookViewModel, Book>(bookVM);
+                    unitOfWork.BookRepository.Update(book);
+                    await unitOfWork.CompleteAsync();
+                    return RedirectToAction(nameof(Index));
+                }catch(Exception ex)
+                {
+                    ModelState.AddModelError(string.Empty, ex.Message);
+                }
+            }
+            return View(bookVM);
+        }
+        public async Task<IActionResult> Delete(int id)
+        {
+            var book = await unitOfWork.BookRepository.GetbyIDAsync(id);
+            if(book is null)
+            {
+                return NotFound();
+            }
+            try
+            {
+                unitOfWork.BookRepository.Delete(book);
+                int res = await unitOfWork.CompleteAsync();
+                if (res > 0)
+                {
+                    DocumentSettings.DeleteFile(book.ImageName, "BookImages");
+                }
+            }catch (Exception ex)
+            {
+                ModelState.AddModelError(string.Empty, ex.Message);
+            }
+            return RedirectToAction(nameof(Index));
+        }
     }
 }
