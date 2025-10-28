@@ -21,6 +21,7 @@ namespace Malek_wafik
             });
             builder.Services.AddAutoMapper(M => M.AddProfiles(new List<Profile>() { new BookProfile() }));
             builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+            builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.

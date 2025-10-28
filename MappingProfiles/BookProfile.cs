@@ -8,7 +8,7 @@ namespace Malek_wafik.MappingProfiles
     {
         public BookProfile()
         {
-            CreateMap<Book, BookViewModel>();
+            CreateMap<Book, BookViewModel>().ReverseMap();
         }
     }
 }

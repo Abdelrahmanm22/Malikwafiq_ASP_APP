@@ -31,6 +31,7 @@
         @await Html.PartialAsync("_Footer")
     </div>
     @await Html.PartialAsync("_Scripts")
-    @RenderSection("Scripts", required: false)
+    @await RenderSectionAsync("Scripts", required: false)
+    @await RenderSectionAsync("ValidationScript", required: false)
 </body>
 </html>

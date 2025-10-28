@@ -1,0 +1,55 @@
+﻿@model Malek_wafik.ViewModels.BookViewModel
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="card card-primary">
+    <div class="card-header">
+        <h3 class="card-title">Add Book</h3>
+    </div>
+
+    <form asp-action="Create" method="post" enctype="multipart/form-data">
+        <div class="card-body">
+            <div class="form-group">
+                <label asp-for="Name" class="col-form-label"></label>
+                <input asp-for="Name" class="form-control" placeholder="Enter Book Name" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Discription" class="col-form-label"></label>
+                <textarea asp-for="Discription" class="form-control" placeholder="Enter Book Description" rows="3"></textarea>
+                <span asp-validation-for="Discription" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Image" class="col-form-label"></label>
+                <div class="input-group">
+                    <div class="custom-file">
+                        <input asp-for="Image" type="file" class="custom-file-input" id="exampleInputFile" />
+                    </div>
+                </div>
+                <span asp-validation-for="Image" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="card-footer text-right">
+            <button type="submit" class="btn btn-primary">Add</button>
+        </div>
+    </form>
+</div>
+
+@section ValidationScript {
+    <partial name="_ValidationScriptsPartial" />
+}
+
+@section Scripts {
+    <script>
+        document.querySelector('.custom-file-input').addEventListener('change', function (e) {
+            var fileName = e.target.files[0]?.name ?? "Choose image";
+            document.getElementById('fileLabel').textContent = fileName;
+        });
+    </script>
+}

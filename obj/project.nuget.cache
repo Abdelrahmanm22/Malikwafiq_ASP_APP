@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ZP6axdp59jk=",
+  "dgSpecHash": "0ybsK7iL/Dg=",
   "success": true,
   "projectFilePath": "D:\\My Career\\ASP.NET\\MyProjects\\Malek wafik\\Malek wafik.csproj",
   "expectedPackageFiles": [
@@ -58,6 +58,8 @@
     "C:\\Users\\Abdelrahman\\.nuget\\packages\\humanizer.core.zh-cn\\2.14.1\\humanizer.core.zh-cn.2.14.1.nupkg.sha512",
     "C:\\Users\\Abdelrahman\\.nuget\\packages\\humanizer.core.zh-hans\\2.14.1\\humanizer.core.zh-hans.2.14.1.nupkg.sha512",
     "C:\\Users\\Abdelrahman\\.nuget\\packages\\humanizer.core.zh-hant\\2.14.1\\humanizer.core.zh-hant.2.14.1.nupkg.sha512",
+    "C:\\Users\\Abdelrahman\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\6.0.0\\microsoft.aspnetcore.mvc.razor.extensions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Abdelrahman\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\8.0.21\\microsoft.aspnetcore.mvc.razor.runtimecompilation.8.0.21.nupkg.sha512",
     "C:\\Users\\Abdelrahman\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.24\\microsoft.aspnetcore.razor.language.6.0.24.nupkg.sha512",
     "C:\\Users\\Abdelrahman\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
     "C:\\Users\\Abdelrahman\\.nuget\\packages\\microsoft.build\\17.8.3\\microsoft.build.17.8.3.nupkg.sha512",
