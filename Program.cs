@@ -14,14 +14,17 @@ namespace Malek_wafik
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
-            builder.Services.AddControllersWithViews();
+            //builder.Services.AddControllersWithViews();
             builder.Services.AddDbContext<MalekAppContext>(Options =>
             {
                 Options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
             });
-            builder.Services.AddAutoMapper(M => M.AddProfiles(new List<Profile>() { new BookProfile() }));
+            builder.Services.AddAutoMapper(M => M.AddProfiles(new List<Profile>() { new BookProfile() , new SectionProfile()}));
             builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
-            builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
+            builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation().AddViewOptions(options =>
+            {
+                options.HtmlHelperOptions.ClientValidationEnabled = true;
+            });
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.

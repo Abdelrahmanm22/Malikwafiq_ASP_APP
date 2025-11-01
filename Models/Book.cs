@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Malek_wafik.Models
 {
@@ -11,5 +12,7 @@ namespace Malek_wafik.Models
         [MaxLength(500)]
         public string? Discription { get; set; }
         public string? ImageName { get; set; }
+        [InverseProperty("Book")]
+        public ICollection<Section> Sections { get; set; } = new HashSet<Section>();
     }
 }

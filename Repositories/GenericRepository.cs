@@ -1,5 +1,6 @@
 ﻿using Malek_wafik.Context;
 using Malek_wafik.Interfaces;
+using Malek_wafik.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace Malek_wafik.Repositories
@@ -24,6 +25,10 @@ namespace Malek_wafik.Repositories
 
         public async Task<IEnumerable<T>> GetAllAsync()
         {
+            if (typeof(T) == typeof(Section))
+            {
+                return (IEnumerable<T>) await dbContext.Sections.Include(S => S.Book).ToListAsync();
+            }
             return await dbContext.Set<T>().ToListAsync();
         }
 

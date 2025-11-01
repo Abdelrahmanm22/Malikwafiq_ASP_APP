@@ -10,5 +10,6 @@ namespace Malek_wafik.Context
             
         }
         public DbSet<Book> Books { get; set; }
+        public DbSet<Section> Sections { get; set; }
     }
 }

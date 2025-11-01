@@ -8,9 +8,11 @@ namespace Malek_wafik.Repositories
     {
         private readonly MalekAppContext dbContext;
         public IBookRepository BookRepository { get; set; }
+        public ISectionRepository SectionRepository { get; set; }
         public UnitOfWork(MalekAppContext dbContext)
         {
             BookRepository = new BookRepository(dbContext);
+            SectionRepository = new SectionRepository(dbContext);
             this.dbContext = dbContext;
         }
         public async Task<int> CompleteAsync()
