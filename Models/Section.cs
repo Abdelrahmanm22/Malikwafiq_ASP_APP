@@ -13,5 +13,10 @@ namespace Malek_wafik.Models
         public int BookId { get; set; }
         [InverseProperty("Sections")]
         public Book Book { get; set; }
+        [InverseProperty("Section")]
+        public ICollection<Voice> Voices { get; set; } = new HashSet<Voice>();
+
+        [InverseProperty("Section")]
+        public ICollection<Video> Videos { get; set; } = new HashSet<Video>();
     }
 }

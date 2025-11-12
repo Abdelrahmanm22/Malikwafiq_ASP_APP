@@ -1,0 +1,67 @@
+﻿@model VoiceViewModel
+@{
+    ViewData["Title"] = "Edit";
+    var sections = new SelectList(ViewBag.Sections, "Id", "Title");
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="card card-primary">
+	<div class="card-header">
+		<h3 class="card-title">Edit @Model.Title Voice</h3>
+	</div>
+	<div asp-validation-summary="All"></div>
+	<form asp-action="Edit" method="post" enctype="multipart/form-data">
+		<div class="card-body">
+			<div class="form-group">
+				<label asp-for="Title" class="col-form-label"></label>
+				<input asp-for="Title" class="form-control" placeholder="Enter Voice Title" />
+				<span asp-validation-for="Title" class="text-danger"></span>
+			</div>
+			@if (!string.IsNullOrEmpty(Model.AudioFileName))
+			{
+				<div class="form-group">
+					<label class="col-form-label">Current Audio</label>
+					<div class="audio-player">
+						<audio controls style="width: 100%;">
+							<source src="~/files/Voices/@Model.AudioFileName" type="audio/mpeg">
+							Your browser does not support the audio element.
+						</audio>
+					</div>
+					<small class="text-muted">You can play the current voice above.</small>
+				</div>
+			}
+			<div class="form-group">
+				<label asp-for="AudioFile" class="col-form-label"></label>
+				<div class="input-group">
+					<div class="custom-file">
+						<input asp-for="AudioFile" type="file" class="custom-file-input" id="exampleInputFile" />
+					</div>
+				</div>
+				<span asp-validation-for="AudioFile" class="text-danger"></span>
+			</div>
+			<input asp-for="AudioFileName" hidden />
+			<div class="form-group">
+				<label class="col-form-label" asp-for="Section"></label>
+				<select id="SectionId" class="form-control" asp-items="sections" asp-for="SectionId">
+					<option value="@null">-----Select Section</option>
+				</select>
+				<span asp-validation-for="Section" class="text-danger"></span>
+			</div>
+		</div>
+		<div class="card-footer text-right">
+			<button type="submit" class="btn btn-primary">Update</button>
+		</div>
+	</form>
+</div>
+
+@section Scripts {
+	<partial name="_ValidationScriptsPartial" />
+	<script>
+		$(document).ready(function () {
+			$('#SectionId').select2({
+				placeholder: 'Select or search a section',
+				allowClear: true,
+				width: '100%'
+			});
+		});
+	</script>
+}

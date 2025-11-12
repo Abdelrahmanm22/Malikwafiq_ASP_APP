@@ -5,6 +5,11 @@
         public static string UploadFile(IFormFile File,string FolderName)
         {
             string FolderPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\files", FolderName);
+            // Ensure the directory exists
+            if (!Directory.Exists(FolderPath))
+            {
+                Directory.CreateDirectory(FolderPath);
+            }
             string FileName = $"{Guid.NewGuid()}{File.FileName}";
             string FilePath = Path.Combine(FolderPath, FileName);
             using var Fs = new FileStream(FilePath, FileMode.Create);

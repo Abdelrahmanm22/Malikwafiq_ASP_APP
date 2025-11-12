@@ -27,7 +27,15 @@ namespace Malek_wafik.Repositories
         {
             if (typeof(T) == typeof(Section))
             {
-                return (IEnumerable<T>) await dbContext.Sections.Include(S => S.Book).ToListAsync();
+                return (IEnumerable<T>)await dbContext.Sections.Include(S => S.Book).ToListAsync();
+            }
+            else if (typeof(T) == typeof(Voice))
+            {
+                return (IEnumerable<T>)await dbContext.Voices.Include(V => V.Section).ToListAsync();
+            }
+            else if (typeof(T) == typeof(Video))
+            {
+                return (IEnumerable<T>)await dbContext.Videos.Include(V => V.Section).ToListAsync();
             }
             return await dbContext.Set<T>().ToListAsync();
         }

@@ -19,7 +19,7 @@ namespace Malek_wafik
             {
                 Options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
             });
-            builder.Services.AddAutoMapper(M => M.AddProfiles(new List<Profile>() { new BookProfile() , new SectionProfile()}));
+            builder.Services.AddAutoMapper(M => M.AddProfiles(new List<Profile>() { new BookProfile() , new SectionProfile(),new VoiceProfile(), new VideoProfile()}));
             builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
             builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation().AddViewOptions(options =>
             {

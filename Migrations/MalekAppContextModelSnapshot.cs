@@ -69,6 +69,65 @@ namespace Malek_wafik.Migrations
                     b.ToTable("Sections");
                 });
 
+            modelBuilder.Entity("Malek_wafik.Models.Video", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Description")
+                        .HasMaxLength(1000)
+                        .HasColumnType("nvarchar(1000)");
+
+                    b.Property<string>("Iframe")
+                        .HasMaxLength(10000)
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("SectionId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("SectionId");
+
+                    b.ToTable("Videos");
+                });
+
+            modelBuilder.Entity("Malek_wafik.Models.Voice", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("AudioFileName")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.Property<int>("SectionId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("SectionId");
+
+                    b.ToTable("Voices");
+                });
+
             modelBuilder.Entity("Malek_wafik.Models.Section", b =>
                 {
                     b.HasOne("Malek_wafik.Models.Book", "Book")
@@ -80,9 +139,38 @@ namespace Malek_wafik.Migrations
                     b.Navigation("Book");
                 });
 
+            modelBuilder.Entity("Malek_wafik.Models.Video", b =>
+                {
+                    b.HasOne("Malek_wafik.Models.Section", "Section")
+                        .WithMany("Videos")
+                        .HasForeignKey("SectionId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Section");
+                });
+
+            modelBuilder.Entity("Malek_wafik.Models.Voice", b =>
+                {
+                    b.HasOne("Malek_wafik.Models.Section", "Section")
+                        .WithMany("Voices")
+                        .HasForeignKey("SectionId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Section");
+                });
+
             modelBuilder.Entity("Malek_wafik.Models.Book", b =>
                 {
                     b.Navigation("Sections");
+                });
+
+            modelBuilder.Entity("Malek_wafik.Models.Section", b =>
+                {
+                    b.Navigation("Videos");
+
+                    b.Navigation("Voices");
                 });
 #pragma warning restore 612, 618
         }

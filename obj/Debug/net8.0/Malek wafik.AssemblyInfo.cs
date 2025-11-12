@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Malek wafik")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+62ce4d959dd32ed5fc359f9914272ec006e14020")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b447b4e72239e250c5e1baa1e43eb4d167c04815")]
 [assembly: System.Reflection.AssemblyProductAttribute("Malek wafik")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Malek wafik")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

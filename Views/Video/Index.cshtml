@@ -1,0 +1,53 @@
+﻿@model IEnumerable<VideoViewModel>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="text-end mb-3">
+    <a asp-action="Create" class="btn btn-success">
+        <i class="fas fa-plus me-1"></i>Add Video
+    </a>
+</div>
+
+<div class="card">
+    <div class="card-header">
+        <h3 class="card-title">Videos Table</h3>
+    </div>
+    <div asp-validation-summary="All"></div>
+    <div class="card-body">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th style="width: 10px">#</th>
+                    <th>Title</th>
+                    <th>Section</th>
+                    <th class="text-center">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model.Any())
+                {
+                    var itr = 1;
+                    foreach (var v in Model)
+                    {
+                        <tr>
+                            <td>@(itr++)</td>
+                            <td>@v.Title</td>
+                            <td>@(v.Section?.Title ?? "N/A")</td>
+                            <td class="text-center">
+                                <partial name="_ButtonsPartialView" model="@v" />
+                            </td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="4" class="text-center text-muted">No Videos found.</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
