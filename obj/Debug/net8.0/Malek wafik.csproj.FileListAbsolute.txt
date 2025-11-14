@@ -18,7 +18,6 @@ D:\My Career\ASP.NET\MyProjects\Malek wafik\obj\Debug\net8.0\Malek wafik.RazorAs
 D:\My Career\ASP.NET\MyProjects\Malek wafik\obj\Debug\net8.0\rjimswa.dswa.cache.json
 D:\My Career\ASP.NET\MyProjects\Malek wafik\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 D:\My Career\ASP.NET\MyProjects\Malek wafik\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
-D:\My Career\ASP.NET\MyProjects\Malek wafik\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 D:\My Career\ASP.NET\MyProjects\Malek wafik\obj\Debug\net8.0\scopedcss\bundle\Malek wafik.styles.css
 D:\My Career\ASP.NET\MyProjects\Malek wafik\obj\Debug\net8.0\scopedcss\projectbundle\Malek wafik.bundle.scp.css
 D:\My Career\ASP.NET\MyProjects\Malek wafik\obj\Debug\net8.0\staticwebassets.build.json
@@ -568,3 +567,4 @@ D:\My Career\ASP.NET\MyProjects\Malek wafik\bin\Debug\net8.0\Microsoft.AspNetCor
 D:\My Career\ASP.NET\MyProjects\Malek wafik\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 D:\My Career\ASP.NET\MyProjects\Malek wafik\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
 D:\My Career\ASP.NET\MyProjects\Malek wafik\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\My Career\ASP.NET\MyProjects\Malek wafik\obj\Debug\net8.0\scopedcss\Areas\Dashboard\Views\Shared\_Layout.cshtml.rz.scp.css

@@ -28,126 +28,126 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[D:/My Career/ASP.NET/MyProjects/Malek wafik/Views/Account/CheckYourInbox.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDaGVja1lvdXJJbmJveC5jc2h0bWw=
+[D:/My Career/ASP.NET/MyProjects/Malek wafik/Areas/Dashboard/Views/Account/CheckYourInbox.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXEFjY291bnRcQ2hlY2tZb3VySW5ib3guY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My Career/ASP.NET/MyProjects/Malek wafik/Views/Account/ForgetPassword.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxGb3JnZXRQYXNzd29yZC5jc2h0bWw=
+[D:/My Career/ASP.NET/MyProjects/Malek wafik/Areas/Dashboard/Views/Account/ForgetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXEFjY291bnRcRm9yZ2V0UGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My Career/ASP.NET/MyProjects/Malek wafik/Views/Account/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+[D:/My Career/ASP.NET/MyProjects/Malek wafik/Areas/Dashboard/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXEFjY291bnRcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My Career/ASP.NET/MyProjects/Malek wafik/Views/Account/Register.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+[D:/My Career/ASP.NET/MyProjects/Malek wafik/Areas/Dashboard/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXEFjY291bnRcUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My Career/ASP.NET/MyProjects/Malek wafik/Views/Account/ResetPassword.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
+[D:/My Career/ASP.NET/MyProjects/Malek wafik/Areas/Dashboard/Views/Account/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXEFjY291bnRcUmVzZXRQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My Career/ASP.NET/MyProjects/Malek wafik/Views/Book/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xDcmVhdGUuY3NodG1s
+[D:/My Career/ASP.NET/MyProjects/Malek wafik/Areas/Dashboard/Views/Book/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXEJvb2tcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My Career/ASP.NET/MyProjects/Malek wafik/Views/Book/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xFZGl0LmNzaHRtbA==
+[D:/My Career/ASP.NET/MyProjects/Malek wafik/Areas/Dashboard/Views/Book/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXEJvb2tcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My Career/ASP.NET/MyProjects/Malek wafik/Views/Book/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xJbmRleC5jc2h0bWw=
+[D:/My Career/ASP.NET/MyProjects/Malek wafik/Areas/Dashboard/Views/Book/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXEJvb2tcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My Career/ASP.NET/MyProjects/Malek wafik/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[D:/My Career/ASP.NET/MyProjects/Malek wafik/Areas/Dashboard/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXEhvbWVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My Career/ASP.NET/MyProjects/Malek wafik/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[D:/My Career/ASP.NET/MyProjects/Malek wafik/Areas/Dashboard/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXEhvbWVcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My Career/ASP.NET/MyProjects/Malek wafik/Views/Section/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VjdGlvblxDcmVhdGUuY3NodG1s
+[D:/My Career/ASP.NET/MyProjects/Malek wafik/Areas/Dashboard/Views/Section/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXFNlY3Rpb25cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My Career/ASP.NET/MyProjects/Malek wafik/Views/Section/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VjdGlvblxFZGl0LmNzaHRtbA==
+[D:/My Career/ASP.NET/MyProjects/Malek wafik/Areas/Dashboard/Views/Section/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXFNlY3Rpb25cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My Career/ASP.NET/MyProjects/Malek wafik/Views/Section/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VjdGlvblxJbmRleC5jc2h0bWw=
+[D:/My Career/ASP.NET/MyProjects/Malek wafik/Areas/Dashboard/Views/Section/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXFNlY3Rpb25cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My Career/ASP.NET/MyProjects/Malek wafik/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+[D:/My Career/ASP.NET/MyProjects/Malek wafik/Areas/Dashboard/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXFNoYXJlZFxFcnJvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My Career/ASP.NET/MyProjects/Malek wafik/Views/Shared/_AuthLayout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BdXRoTGF5b3V0LmNzaHRtbA==
+[D:/My Career/ASP.NET/MyProjects/Malek wafik/Areas/Dashboard/Views/Shared/_AuthLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXFNoYXJlZFxfQXV0aExheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My Career/ASP.NET/MyProjects/Malek wafik/Views/Shared/_ButtonsPartialView.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9CdXR0b25zUGFydGlhbFZpZXcuY3NodG1s
+[D:/My Career/ASP.NET/MyProjects/Malek wafik/Areas/Dashboard/Views/Shared/_ButtonsPartialView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXFNoYXJlZFxfQnV0dG9uc1BhcnRpYWxWaWV3LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My Career/ASP.NET/MyProjects/Malek wafik/Views/Shared/_Footer.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXIuY3NodG1s
+[D:/My Career/ASP.NET/MyProjects/Malek wafik/Areas/Dashboard/Views/Shared/_Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXFNoYXJlZFxfRm9vdGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My Career/ASP.NET/MyProjects/Malek wafik/Views/Shared/_Head.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IZWFkLmNzaHRtbA==
+[D:/My Career/ASP.NET/MyProjects/Malek wafik/Areas/Dashboard/Views/Shared/_Head.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXFNoYXJlZFxfSGVhZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My Career/ASP.NET/MyProjects/Malek wafik/Views/Shared/_Nav.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXYuY3NodG1s
+[D:/My Career/ASP.NET/MyProjects/Malek wafik/Areas/Dashboard/Views/Shared/_Nav.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXFNoYXJlZFxfTmF2LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My Career/ASP.NET/MyProjects/Malek wafik/Views/Shared/_Scripts.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TY3JpcHRzLmNzaHRtbA==
+[D:/My Career/ASP.NET/MyProjects/Malek wafik/Areas/Dashboard/Views/Shared/_Scripts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXFNoYXJlZFxfU2NyaXB0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My Career/ASP.NET/MyProjects/Malek wafik/Views/Shared/_Sidebar.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TaWRlYmFyLmNzaHRtbA==
+[D:/My Career/ASP.NET/MyProjects/Malek wafik/Areas/Dashboard/Views/Shared/_Sidebar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXFNoYXJlZFxfU2lkZWJhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My Career/ASP.NET/MyProjects/Malek wafik/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[D:/My Career/ASP.NET/MyProjects/Malek wafik/Areas/Dashboard/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXFNoYXJlZFxfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My Career/ASP.NET/MyProjects/Malek wafik/Views/Video/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlkZW9cQ3JlYXRlLmNzaHRtbA==
+[D:/My Career/ASP.NET/MyProjects/Malek wafik/Areas/Dashboard/Views/Video/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXFZpZGVvXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My Career/ASP.NET/MyProjects/Malek wafik/Views/Video/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlkZW9cRWRpdC5jc2h0bWw=
+[D:/My Career/ASP.NET/MyProjects/Malek wafik/Areas/Dashboard/Views/Video/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXFZpZGVvXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My Career/ASP.NET/MyProjects/Malek wafik/Views/Video/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlkZW9cSW5kZXguY3NodG1s
+[D:/My Career/ASP.NET/MyProjects/Malek wafik/Areas/Dashboard/Views/Video/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXFZpZGVvXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My Career/ASP.NET/MyProjects/Malek wafik/Views/Voice/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm9pY2VcQ3JlYXRlLmNzaHRtbA==
+[D:/My Career/ASP.NET/MyProjects/Malek wafik/Areas/Dashboard/Views/Voice/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXFZvaWNlXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My Career/ASP.NET/MyProjects/Malek wafik/Views/Voice/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm9pY2VcRWRpdC5jc2h0bWw=
+[D:/My Career/ASP.NET/MyProjects/Malek wafik/Areas/Dashboard/Views/Voice/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXFZvaWNlXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My Career/ASP.NET/MyProjects/Malek wafik/Views/Voice/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm9pY2VcSW5kZXguY3NodG1s
+[D:/My Career/ASP.NET/MyProjects/Malek wafik/Areas/Dashboard/Views/Voice/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXFZvaWNlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My Career/ASP.NET/MyProjects/Malek wafik/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[D:/My Career/ASP.NET/MyProjects/Malek wafik/Areas/Dashboard/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My Career/ASP.NET/MyProjects/Malek wafik/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+[D:/My Career/ASP.NET/MyProjects/Malek wafik/Areas/Dashboard/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/My Career/ASP.NET/MyProjects/Malek wafik/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-ant2rs1utn
+[D:/My Career/ASP.NET/MyProjects/Malek wafik/Areas/Dashboard/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXFNoYXJlZFxfTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-95hutzkmoy

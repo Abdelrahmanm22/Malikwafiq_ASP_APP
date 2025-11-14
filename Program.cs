@@ -33,8 +33,8 @@ namespace Malek_wafik
                 .AddDefaultTokenProviders();
             builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(Options =>
             {
-                Options.LoginPath = "Account/Login";
-                Options.AccessDeniedPath = "Home/Error";
+                Options.LoginPath = "/Dashboard/Account/Login";
+                Options.AccessDeniedPath = "/Dashboard/Home/Error";
             });
             var app = builder.Build();
 
@@ -55,8 +55,12 @@ namespace Malek_wafik
             app.UseAuthorization();
 
             app.MapControllerRoute(
+                name: "areas",
+                pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
+
+            app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Account}/{action=Login}/{id?}");
+                pattern: "{controller=Home}/{action=Index}/{id?}");
 
             app.Run();
         }

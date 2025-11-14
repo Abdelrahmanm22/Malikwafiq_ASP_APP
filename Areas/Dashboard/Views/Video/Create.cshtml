@@ -1,0 +1,59 @@
+﻿@model VideoViewModel
+@{
+    ViewData["Title"] = "Create";
+    var sections = new SelectList(ViewBag.Sections, "Id", "Title");
+    Layout = "~/Areas/Dashboard/Views/Shared/_Layout.cshtml";
+}
+
+<div class="card card-primary">
+    <div class="card-header">
+        <h3 class="card-title">Add Video</h3>
+    </div>
+    <div asp-validation-summary="All"></div>
+    <form asp-action="Create" method="post">
+        <div class="card-body">
+            <div class="form-group">
+                <label asp-for="Title" class="col-form-label"></label>
+                <input asp-for="Title" class="form-control" placeholder="Enter Video Title" />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Description" class="col-form-label"></label>
+                <textarea asp-for="Description" class="form-control" rows="3" placeholder="Enter description (optional)"></textarea>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Iframe" class="col-form-label"></label>
+                <textarea asp-for="Iframe" class="form-control" rows="5" placeholder="Paste iframe embed code (e.g., YouTube, Vimeo)"></textarea>
+                <span asp-validation-for="Iframe" class="text-danger"></span>
+                <small class="text-muted">Example: &lt;iframe src=&quot;https://www.youtube.com/embed/abc123&quot;&gt;&lt;/iframe&gt;</small>
+            </div>
+
+            <div class="form-group">
+                <label class="col-form-label" asp-for="Section"></label>
+                <select id="SectionId" class="form-control" asp-items="sections" asp-for="SectionId">
+                    <option value="">-----Select Section</option>
+                </select>
+                <span asp-validation-for="Section" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="card-footer text-right">
+            <button type="submit" class="btn btn-primary">Add</button>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        $(document).ready(function () {
+            $('#SectionId').select2({
+                placeholder: 'Select or search a section',
+                allowClear: true,
+                width: '100%'
+            });
+        });
+    </script>
+}
