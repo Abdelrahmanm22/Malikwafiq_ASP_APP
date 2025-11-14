@@ -281,8 +281,6 @@ D:\My Career\ASP.NET\MyProjects\Malek wafik\bin\Debug\net8.0\refs\Microsoft.AspN
 D:\My Career\ASP.NET\MyProjects\Malek wafik\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
 D:\My Career\ASP.NET\MyProjects\Malek wafik\bin\Debug\net8.0\refs\Microsoft.AspNetCore.CookiePolicy.dll
 D:\My Career\ASP.NET\MyProjects\Malek wafik\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Cors.dll
-D:\My Career\ASP.NET\MyProjects\Malek wafik\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Cryptography.Internal.dll
-D:\My Career\ASP.NET\MyProjects\Malek wafik\bin\Debug\net8.0\refs\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 D:\My Career\ASP.NET\MyProjects\Malek wafik\bin\Debug\net8.0\refs\Microsoft.AspNetCore.DataProtection.Abstractions.dll
 D:\My Career\ASP.NET\MyProjects\Malek wafik\bin\Debug\net8.0\refs\Microsoft.AspNetCore.DataProtection.dll
 D:\My Career\ASP.NET\MyProjects\Malek wafik\bin\Debug\net8.0\refs\Microsoft.AspNetCore.DataProtection.Extensions.dll
@@ -378,8 +376,6 @@ D:\My Career\ASP.NET\MyProjects\Malek wafik\bin\Debug\net8.0\refs\Microsoft.Exte
 D:\My Career\ASP.NET\MyProjects\Malek wafik\bin\Debug\net8.0\refs\Microsoft.Extensions.Hosting.Abstractions.dll
 D:\My Career\ASP.NET\MyProjects\Malek wafik\bin\Debug\net8.0\refs\Microsoft.Extensions.Hosting.dll
 D:\My Career\ASP.NET\MyProjects\Malek wafik\bin\Debug\net8.0\refs\Microsoft.Extensions.Http.dll
-D:\My Career\ASP.NET\MyProjects\Malek wafik\bin\Debug\net8.0\refs\Microsoft.Extensions.Identity.Core.dll
-D:\My Career\ASP.NET\MyProjects\Malek wafik\bin\Debug\net8.0\refs\Microsoft.Extensions.Identity.Stores.dll
 D:\My Career\ASP.NET\MyProjects\Malek wafik\bin\Debug\net8.0\refs\Microsoft.Extensions.Localization.Abstractions.dll
 D:\My Career\ASP.NET\MyProjects\Malek wafik\bin\Debug\net8.0\refs\Microsoft.Extensions.Localization.dll
 D:\My Career\ASP.NET\MyProjects\Malek wafik\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.Abstractions.dll
@@ -567,3 +563,8 @@ D:\My Career\ASP.NET\MyProjects\Malek wafik\bin\Debug\net8.0\refs\WindowsBase.dl
 D:\My Career\ASP.NET\MyProjects\Malek wafik\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
 D:\My Career\ASP.NET\MyProjects\Malek wafik\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
 D:\My Career\ASP.NET\MyProjects\Malek wafik\obj\Debug\net8.0\Malek wafik.MvcApplicationPartsAssemblyInfo.cs
+D:\My Career\ASP.NET\MyProjects\Malek wafik\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\My Career\ASP.NET\MyProjects\Malek wafik\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\My Career\ASP.NET\MyProjects\Malek wafik\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\My Career\ASP.NET\MyProjects\Malek wafik\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\My Career\ASP.NET\MyProjects\Malek wafik\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll

@@ -44,6 +44,7 @@ wwwroot\back\js\adminlte.js
 wwwroot\back\js\adminlte.js.map
 wwwroot\back\js\adminlte.min.js
 wwwroot\back\js\adminlte.min.js.map
+wwwroot\css\AuthStyleSheet.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\files\BookImages\64f851b4-e00d-4487-a7f4-c2acd6d1e68aEnjaz.jpg

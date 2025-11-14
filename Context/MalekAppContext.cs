@@ -1,9 +1,10 @@
 ﻿using Malek_wafik.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace Malek_wafik.Context
 {
-    public class MalekAppContext : DbContext
+    public class MalekAppContext : IdentityDbContext<ApplicationUser>
     {
         public MalekAppContext(DbContextOptions<MalekAppContext> options):base(options)
         {

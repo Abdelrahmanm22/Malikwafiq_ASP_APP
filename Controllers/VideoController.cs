@@ -3,10 +3,12 @@ using AutoMapper;
 using Malek_wafik.Interfaces;
 using Malek_wafik.Models;
 using Malek_wafik.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Malek_wafik.Controllers
 {
+    [Authorize]
     public class VideoController : Controller
     {
         private readonly IUnitOfWork unitOfWork;

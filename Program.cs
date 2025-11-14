@@ -2,7 +2,10 @@ using AutoMapper;
 using Malek_wafik.Context;
 using Malek_wafik.Interfaces;
 using Malek_wafik.MappingProfiles;
+using Malek_wafik.Models;
 using Malek_wafik.Repositories;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 namespace Malek_wafik
@@ -25,6 +28,14 @@ namespace Malek_wafik
             {
                 options.HtmlHelperOptions.ClientValidationEnabled = true;
             });
+            builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
+                .AddEntityFrameworkStores<MalekAppContext>()
+                .AddDefaultTokenProviders();
+            builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(Options =>
+            {
+                Options.LoginPath = "Account/Login";
+                Options.AccessDeniedPath = "Home/Error";
+            });
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -40,11 +51,12 @@ namespace Malek_wafik
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+                pattern: "{controller=Account}/{action=Login}/{id?}");
 
             app.Run();
         }
