@@ -24,7 +24,6 @@ D:\My Career\ASP.NET\MyProjects\Malek wafik\obj\Debug\net8.0\staticwebassets.bui
 D:\My Career\ASP.NET\MyProjects\Malek wafik\obj\Debug\net8.0\staticwebassets.build.json.cache
 D:\My Career\ASP.NET\MyProjects\Malek wafik\obj\Debug\net8.0\staticwebassets.development.json
 D:\My Career\ASP.NET\MyProjects\Malek wafik\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-D:\My Career\ASP.NET\MyProjects\Malek wafik\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\My Career\ASP.NET\MyProjects\Malek wafik\obj\Debug\net8.0\Malek wafik.dll
 D:\My Career\ASP.NET\MyProjects\Malek wafik\obj\Debug\net8.0\refint\Malek wafik.dll
 D:\My Career\ASP.NET\MyProjects\Malek wafik\obj\Debug\net8.0\Malek wafik.pdb

@@ -60,7 +60,8 @@ namespace Malek_wafik
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+                pattern: "{controller=Video}/{action=Index}/{id?}",
+                defaults: new { area = "Front", controller = "Video", action = "Index" });
 
             app.Run();
         }

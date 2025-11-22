@@ -1,0 +1,19 @@
+﻿@model VideoViewModel
+@{
+    ViewData["Title"] = "Watch";
+    Layout = "~/Areas/Front/Views/Shared/_Layout.cshtml";
+}
+<div class="videos-books">
+    <div class="maintitle">
+        <h1>@Model.Title</h1>
+    </div>
+    <div class="section-video">
+        <div class="video-container">
+            @Html.Raw(Model.Iframe)
+        </div>
+        <p class="video-description">
+           @Model.Description
+        </p>
+    </div>
+</div>
+

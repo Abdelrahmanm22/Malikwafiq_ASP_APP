@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+	@await Html.PartialAsync("_Head")
+<body>
+	<!--Start Header-->
+	@await Html.PartialAsync("_Nav")
+	<!--Start Hero-->
+	<div class="hero">
+		<img src="~/front/assets/images/hero.png" alt="Hero background" />
+		<div id="socials">
+			<div class="icon">
+				<a href="">
+					<img src="~/front/assets/icons/youtube (2).png" alt="youtube link" />
+				</a>
+			</div>
+			<div class="icon">
+				<a href="">
+					<img src="~/front/assets/icons/whatsapp.png" alt="whatsapp link" />
+				</a>
+			</div>
+			<div class="icon">
+				<a href="">
+					<img src="~/front/assets/icons/facebook.png" alt="facebook link" />
+				</a>
+			</div>
+		</div>
+	</div>
+	<!--End Hero-->
+	<!--End Header-->
+	<!--Start Content-->
+	<main class="main-content"
+		  style="background-image: url('@Url.Content("~/front/assets/images/background.png")')">
+		<div class="container">
+			@RenderBody()
+		</div>
+		<!--Start Footer-->
+		@await Html.PartialAsync("_Footer")
+		<!--End Footer-->
+	</main>
+	<!--End Content-->
+	@await Html.PartialAsync("_Scripts")
+	@await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,21 @@
+﻿@model BookWithSectionsVoiceViewModel
+@{
+    ViewData["Title"] = "Sections";
+    Layout = "~/Areas/Front/Views/Shared/_Layout.cshtml";
+}
+<div class="videos-books">
+    <div class="maintitle">
+        <h1>ابواب كتاب : @Model.BookName</h1>
+    </div>
+    <div class="book-sections">
+        @foreach (var sec in Model.Sections)
+        {
+            <div class="section">
+                <a asp-action="Listen" asp-route-sectionId="@sec.Id">
+                    <div class="name">@sec.Title</div>
+                    <div class="count">@sec.VoiceCount</div>
+                </a>
+            </div>
+        }
+    </div>
+</div>

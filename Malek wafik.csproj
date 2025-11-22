@@ -8,8 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Areas\NewFolder\" />
     <Folder Include="wwwroot\files\BookImages\" />
-    <Folder Include="wwwroot\front\" />
     <Folder Include="wwwroot\NewFolder1\" />
     <Folder Include="wwwroot\NewFolder\" />
   </ItemGroup>

@@ -1,0 +1,22 @@
+﻿@model SectionWithVoicesViewModel
+@{
+    ViewData["Title"] = "Listen";
+    Layout = "~/Areas/Front/Views/Shared/_Layout.cshtml";
+}
+<div class="section-voices">
+    <div class="maintitle">
+        <h1>@Model.SectionTitle</h1>
+    </div>
+    <div class="voices">
+        @foreach (var voice in Model.Voices)
+        {
+            <audio-player src="~/files/Voices/@voice.AudioFileName">
+                @voice.Title
+            </audio-player>
+        }
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/front/dist/js/audio-player-dist.js"></script>
+}

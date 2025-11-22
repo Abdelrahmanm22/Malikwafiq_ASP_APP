@@ -1,0 +1,26 @@
+﻿<header class="header"
+		style="background-image: url('@Url.Content("~/front/assets/images/header.webp")')">
+	<div class="container">
+		<nav class="navbar">
+			<div class="logo">
+				<a href="./index.html">
+					<img src="~/front/assets/images/black-logo.png" alt="the website logo" />
+				</a>
+			</div>
+			<div id="icon" opened="false">
+				<span id="top"></span>
+				<span id="center"></span>
+				<span id="bottom"></span>
+			</div>
+			<ul style="">
+				<li><a asp-action="Index" asp-controller="Video" asp-area="Front" name="video">تسجيلات مرئية</a></li>
+				<li>
+					<a asp-action="Index" asp-controller="Voice" asp-area="Front" name="voice">تسجيلات صوتية</a>
+				</li>
+				<li><a href="./time-table.html">مواعيد المحاضرات</a></li>
+				<li><a href="./fatwas.html">الفتاوى</a></li>
+				<li><a href="./haha">خطب الجمعة</a></li>
+			</ul>
+		</nav>
+	</div>
+</header>

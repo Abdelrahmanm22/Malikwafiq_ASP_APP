@@ -1,0 +1,28 @@
+﻿@model IEnumerable<BookViewModel>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Front/Views/Shared/_Layout.cshtml";
+}
+
+<div class="voices-books">
+    <div class="maintitle">
+        <h1>الكتب المسجلة صوتيًا</h1>
+    </div>
+    <div class="books">
+        @foreach(var book in Model)
+        {
+            <div class="book">
+                <a asp-action="Sections" asp-controller="Voice" asp-route-bookId="@book.Id">
+                    <div class="book-cover">
+                        <img src="~/files/BookImages/@book.ImageName"
+                             alt="@book.Name" />
+                    </div>
+                    <p class="name">@book.Name</p>
+                    <p class="description">
+                        @book.Discription
+                    </p>
+                </a>
+            </div>
+        }
+    </div>
+</div>

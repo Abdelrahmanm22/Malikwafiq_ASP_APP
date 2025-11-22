@@ -5,7 +5,7 @@ using Malek_wafik.ViewModels;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Malek_wafik.Controllers
+namespace Malek_wafik.Areas.Dashboard.Controllers
 {
     [Area("Dashboard")]
     public class AccountController : Controller

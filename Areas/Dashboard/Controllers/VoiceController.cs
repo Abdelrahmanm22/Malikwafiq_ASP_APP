@@ -7,7 +7,7 @@ using Malek_wafik.ViewModels;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Malek_wafik.Controllers
+namespace Malek_wafik.Areas.Dashboard.Controllers
 {
     [Area("Dashboard")]
     [Authorize]
